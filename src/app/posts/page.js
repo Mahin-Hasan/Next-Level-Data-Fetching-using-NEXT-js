@@ -1,17 +1,16 @@
-
+import Link from "next/link";
+import styles from "./Posts.module.css"
 
 const PostsPage = async () => {
     const res = await fetch('http://localhost:5000/posts', {
-        next: {
-            revalidate: 5,
-        }
+        cache: "no-store"
     });
     const posts = await res.json();
     // console.log(posts);
 
     return (
         <div className="w-full">
-            <h1>Total Post: {posts.length} </h1>
+            <h1 className={styles.header_text}>Total Posts: {posts.length} </h1>
             {
                 posts.map(post => <div key={post.id} className="card w-3/4 my-5 mx-auto bg-teal-50 shadow-xl">
                     <div className="card-body">
@@ -19,7 +18,9 @@ const PostsPage = async () => {
                         <p>{post.description}</p>
                         <p>Likes: {post.likes_count}</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">View</button>
+                            <Link href={`/posts/${post.id}`}>
+                                <button className="btn btn-primary">View</button>
+                            </Link>
                         </div>
                     </div>
                 </div>)
