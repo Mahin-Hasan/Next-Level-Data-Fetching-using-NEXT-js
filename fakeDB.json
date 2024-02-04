@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Exciting Adventure",
+      "description": "Embark on a thrilling journey filled with unexpected twists and turns. Explore mysterious lands and encounter fascinating creatures. Will you conquer the challenges that lie ahead?",
+      "likes_count": 129
+    },
+    {
+      "id": 2,
+      "title": "Delicious Recipes",
+      "description": "Discover mouthwatering recipes from around the world. Dive into the art of cooking and create delectable dishes that will tantalize your taste buds. Share your culinary delights with friends and family!",
+      "likes_count": 198
+    },
+    {
+      "id": 3,
+      "title": "Mindful Meditation",
+      "description": "Immerse yourself in the tranquility of mindfulness meditation. Find inner peace and balance as you practice mindfulness techniques. Join a community of like-minded individuals on the path to mental well-being.",
+      "likes_count": 220
+    },
+    {
+      "id": 4,
+      "title": "Tech Innovations",
+      "description": "Stay updated on the latest technological advancements. Explore cutting-edge innovations shaping the future. From AI breakthroughs to space exploration, witness the evolution of technology.",
+      "likes_count": 335
+    },
+    {
+      "id": 5,
+      "title": "Artistic Expressions",
+      "description": "Dive into a world of creativity and artistic expressions. Uncover the stories behind captivating artworks and the artists who bring them to life. Appreciate the beauty that lies in every brushstroke.",
+      "likes_count": 150
+    },
+    {
+      "id": 6,
+      "title": "Fitness Motivation",
+      "description": "Embark on a fitness journey to transform your body and mind. Find motivation through inspiring stories of individuals overcoming obstacles to achieve their fitness goals. Join the fitness community and thrive!",
+      "likes_count": 175
+    }
+  ]
+}
